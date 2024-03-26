@@ -1,10 +1,9 @@
 import React from 'react'
+import RenderBaidu from '../components/RenderBaidu'
 
-function page() {
+async function page() {
     return (
-        <div className='min-h-full'>
-            page
-        </div>
+        <RenderBaidu />
     )
 }
 
