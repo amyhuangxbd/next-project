@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '@/app/use-client'
-import { useFormStatus } from 'react-dom'
+import { experimental_useFormStatus as useFormStatus } from 'react-dom'
 
 function SubmitButton() {
     const { pending } = useFormStatus()
