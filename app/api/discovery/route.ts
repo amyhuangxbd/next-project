@@ -29,6 +29,6 @@ export async function PUT(request: NextRequest) {
   const headers = request.headers;
   const ContentType = headers.get("Content-Type");
 }
-export async function DELTE(request: Request) {}
+export async function DELETE(request: Request) {}
 export async function HEAD(request: Request) {}
 export async function OPTIONS(request: Request) {}
